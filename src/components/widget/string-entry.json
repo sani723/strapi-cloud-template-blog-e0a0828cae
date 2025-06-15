@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_widget_string_entries",
+  "info": {
+    "displayName": "StringEntry"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "translations": {
+      "type": "component",
+      "component": "widget.locale-value",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

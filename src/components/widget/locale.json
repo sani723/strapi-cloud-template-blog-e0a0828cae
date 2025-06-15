@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_widget_locales",
+  "info": {
+    "displayName": "Locale"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "widget_configs",
+  "info": {
+    "singularName": "widget-config",
+    "pluralName": "widget-configs",
+    "displayName": "WidgetConfig"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "layout": {
+      "type": "enumeration",
+      "default": "default",
+      "enum": [
+        "default",
+        "mini",
+        "nano"
+      ]
+    },
+    "locales": {
+      "type": "component",
+      "component": "widget.locale",
+      "repeatable": true
+    },
+    "stringEntries": {
+      "type": "component",
+      "component": "widget.string-entry",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_widget_locale_values",
+  "info": {
+    "displayName": "LocaleValue"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "ar",
+        "ur",
+        "de",
+        "fr",
+        "nl",
+        "es",
+        "sv",
+        "zh",
+        "th",
+        "id",
+        "bn",
+        "ta",
+        "hi",
+        "ja",
+        "ko",
+        "ru"
+      ]
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
